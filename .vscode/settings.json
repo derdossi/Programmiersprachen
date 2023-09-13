@@ -2,21 +2,5 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "python.formatting.provider": "none",
-  "sqltools.connections": [
-    {
-      "mysqlOptions": {
-        "authProtocol": "default",
-        "enableSsl": "Disabled"
-      },
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 3306,
-      "driver": "MySQL",
-      "name": "datenbank_bur",
-      "database": "datenbank_bur",
-      "username": "root",
-      "password": ""
-    }
-  ]
+  "python.formatting.provider": "none"
 }
