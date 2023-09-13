@@ -1,5 +1,5 @@
 
-#! Standard Eingabe ist Stringtyp
+#! Standard Eingabe ist String-typ
 #! Benutzereingabe in einer Variable speichern.
 name = input("Was ist dein Name?: ")
 

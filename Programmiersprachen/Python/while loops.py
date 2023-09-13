@@ -7,7 +7,7 @@
 # name = ""
 
 # while len(name) == 0:
-# name = input("Enter your name: ") #! user wird gelooped solange er keinen namen eingibt!
+# name = input("Enter your name: ") #! user wird gelooped solange er keinen Namen eingibt!
 
 
 name = None

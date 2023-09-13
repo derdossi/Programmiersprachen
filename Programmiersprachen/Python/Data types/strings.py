@@ -1,6 +1,6 @@
 
 #! Strings
-name = "Auszubildener"
+name = "Auszubildender"
 print(name)  # !Keine anführungszeichen sonst zeigt man "name"
 print("Hello "+name)
 
