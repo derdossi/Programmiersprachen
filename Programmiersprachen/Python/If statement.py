@@ -8,7 +8,7 @@ if age == 100:
 elif age >= 18:
     print("Du bist Volljährig!")
 # elif age == 100:
-    # print("Du bist ein Jahrhundert alt")       Muss an den Anfang da sonst age = 100 "Du bist volljährig ergibt". Reihenfolge wichtig
+    # print("Du bist ein Jahrhundert alt")       Muss an den Anfang da sonst age == 100 "Du bist volljährig ergibt". Reihenfolge wichtig
 elif age < 0:
     print("Du wurdest noch nicht geboren!")
 else:
