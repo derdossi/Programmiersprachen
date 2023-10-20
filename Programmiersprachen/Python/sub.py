@@ -37,9 +37,9 @@ def subscribe(client: mqtt_client):
 
 
 def on_message(client, userdata, message):
-    d = json.loads(message.payload.decode("utf-8"))
-    with open("file.txt", "a+") as file:
-        file.write("%s,%s,%s" % (d["timestamp"], d["mac"], d["rssi"]))
+    print("Message received"+ message.payload)
+    with open('/home/pi/test.txt','a+') as f:
+        f.write("Message received: "  + message.payload + "\n")
 
 
 def run():
