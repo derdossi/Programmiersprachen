@@ -5,7 +5,7 @@ import random
 from paho.mqtt import client as mqtt_client
 
 
-broker = '149.209.67.55'
+broker = 'localhost'
 port = 1883
 topic = "python/mqtt"
 # Generate a Client ID with the subscribe prefix.
