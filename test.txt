@@ -32,3 +32,4 @@ Message received: {"value":"HEHNSZ  015839            \u0000\u000020231020151840
 Message received: {"value":"HENNSZ  013455            \u0000\u000020231020151857","ts_type":"create","ts":1697807946390,"topic":"quickstart-events","offset":879,"key":"","headers":{}}
 Message received: {"value":"HECNSZ  015840            \u0000\u000020231020151911","ts_type":"create","ts":1697807961492,"topic":"quickstart-events","offset":880,"key":"","headers":{}}
 Message received: {"value":"HEKNSZ  013456            \u0000\u000020231020151927","ts_type":"create","ts":1697807976592,"topic":"quickstart-events","offset":881,"key":"","headers":{}}
+Message received: {"value":"HEKNSZ  013456            \u0000\u000020231020151927","ts_type":"create","ts":1697807991693,"topic":"quickstart-events","offset":882,"key":"","headers":{}}
