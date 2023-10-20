@@ -1,5 +1,5 @@
 # python3.6
-
+import json
 import random
 
 from paho.mqtt import client as mqtt_client
@@ -34,6 +34,12 @@ def subscribe(client: mqtt_client):
 
     client.subscribe(topic)
     client.on_message = on_message
+
+
+def on_message(client, userdata, message):
+    d = json.loads(message.payload.decode("utf-8"))
+    with open("file.txt", "a+") as file:
+        file.write("%s,%s,%s" % (d["timestamp"], d["mac"], d["rssi"]))
 
 
 def run():
