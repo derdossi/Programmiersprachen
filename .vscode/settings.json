@@ -3,5 +3,5 @@
     "editor.defaultFormatter": "ms-python.autopep8"
   },
   "python.formatting.provider": "none",
-  "cSpell.words": ["gelooped", "gewinn", "groeße"]
+  "cSpell.words": ["easygui", "gelooped", "gewinn", "groeße"]
 }
