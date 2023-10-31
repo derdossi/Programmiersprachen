@@ -9,7 +9,7 @@
         "-g",
         "${file}",
         "-o",
-        "builds\\${fileBasenameNoExtension}.exe"
+        "${fileDirname}\\builds\\${fileBasenameNoExtension}.exe"
       ],
       "options": {
         "cwd": "C:\\msys64\\ucrt64\\bin"
@@ -27,7 +27,7 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+        "${fileDirname}\\builds\\${fileBasenameNoExtension}.exe"
       ],
       "options": {
         "cwd": "C:\\msys64\\ucrt64\\bin"
