@@ -1,5 +1,5 @@
-Tag = 20
-Monat = 5
+Tag = 29
+Monat = 2
 Jahr = 2001
 Datum_ok = 1
 
