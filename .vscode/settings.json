@@ -3,7 +3,7 @@
     "editor.defaultFormatter": "ms-python.autopep8"
   },
   "python.formatting.provider": "none",
-  "cSpell.words": ["easygui", "gelooped", "gewinn", "groeße"],
+  "cSpell.words": ["easygui", "enterbox", "gelooped", "gewinn", "groeße"],
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
