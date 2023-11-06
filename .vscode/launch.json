@@ -27,7 +27,7 @@
       "program": "${fileDirname}\\builds\\${fileBasenameNoExtension}.exe",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "builds",
+      "cwd": "${fileDirname}\\builds",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
