@@ -2,6 +2,14 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "cSpell.words": ["easygui", "enterbox", "gelooped", "gewinn", "groeße"],
+  "cSpell.words": [
+    "easygui",
+    "enterbox",
+    "gelooped",
+    "gewinn",
+    "groeße",
+    "selectmode",
+    "tkcalendar"
+  ],
   "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc"
 }
