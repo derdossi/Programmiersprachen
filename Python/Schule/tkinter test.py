@@ -1,4 +1,3 @@
-# Import Required Library
 from tkinter import *
 from tkcalendar import Calendar
 from tkcalendar import DateEntry
@@ -9,7 +8,7 @@ root = Tk()
 # Set geometry
 root.geometry("400x400")
 
-date = dt.date.today
+date = dt.date.today()
 
 # Add Calendar
 cal = Calendar(root, selectmode='day',
@@ -26,10 +25,10 @@ def grad_date():
 # datum_auswahl = int(cal.get_date())
 date_fix = date.strftime("%d%m%Y")
 date_fix2 = int(date_fix)
-# print(date_fix2)
-# datum_auswahl = int(cal.get_date())
-datum_auswahl = int(DateEntry())
-diff = date_fix2-datum_auswahl
+print(date_fix2)
+datum_auswahl = int(cal.get_date())
+print(datum_auswahl)
+diff = abs(date_fix2-datum_auswahl)
 
 
 def grad_diff():
